@@ -1,0 +1,50 @@
+.main-title {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.text-column {
+    width: 45%;
+    margin-right: 5%;
+}
+
+.text-column p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-column p:last-child {
+    margin-bottom: 100px;
+}
+
+.interactive {
+    cursor: pointer;
+    color: blue;
+}
+
+.reference-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 2px solid #d0d0d0;
+}
+
+.highlighted {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
