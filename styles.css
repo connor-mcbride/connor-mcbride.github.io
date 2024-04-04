@@ -18,6 +18,12 @@ body {
     border: 2px solid #87bff7;
 }
 
+.subtitle {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
