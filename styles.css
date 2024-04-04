@@ -15,18 +15,21 @@ body {
     margin-bottom: 30px;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 2px solid #87bff7;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fdfbfb;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 0 auto;
     width: 800px;
+    margin-top: 15px;
     max-width: 1200px;
     margin: 50px auto;
+    border: 2px solid #b0bec5;
 }
 
 .text-column {
@@ -34,8 +37,11 @@ body {
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+    border-color: #b92f2f;
     width: 45%;
     margin-right: 5%;
+    border: 2px solid #b0bec5;
+    font-weight: bold;
 }
 
 .text-column p {
@@ -62,7 +68,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: #e7e6e6;
     padding: 10px;
     text-align: center;
     font-size: 18px;
